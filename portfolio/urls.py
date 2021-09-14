@@ -19,5 +19,5 @@ import jobs.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('savva', jobs.views.savva, name='savva')
+    path('', jobs.views.home, name='home')
 ]
